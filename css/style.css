@@ -2,13 +2,13 @@ html, body {
     margin: 0;
     min-height: 100%;
     min-width: 100%;
-    
+    line-height: 24px;
 }
 
 html {
     background-image: url('../img/bg.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 22%;
 }
 
 .ff-arial {
@@ -159,13 +159,30 @@ html {
 }
 
 .content {
-    margin-top: 140px;
-    margin-left: 140px;
+    margin-top: 16%;
+    margin-left: 180px;
+    margin-right: 180px;
     margin-bottom: 60px;
+    display: grid;
+    grid-template-areas:
+    "quem-sou-eu techs"
+    "formacao techs"
+    "exp exp";
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .content .item {
     width: fit-content;
+}
+
+.content .card-tecs {
+    padding: 32px;
+    border-radius: 8px;
+    line-height: 30px;
+    background-color: #fff;
+    justify-self: end;
+    box-shadow: 1px 3px 28px 6px #ccc;
 }
 
 .content .item .title {
@@ -178,13 +195,39 @@ html {
 }
 
 .content .item .tecs {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+}
+
+.quem-sou-eu {
+    grid-area: quem-sou-eu;
+}
+
+.formacao {
+    grid-area: formacao;
+}
+
+.techs {
+    grid-area: techs;
+}
+
+.exp {
+    grid-area: exp;
 }
 
 .content .item .xp {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content .item .xp .item {
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 3px 28px 6px #ccc;
+    padding: 32px;
+    border-radius: 8px;
 }
 
 .ml-16 {
