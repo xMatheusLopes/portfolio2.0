@@ -1,7 +1,7 @@
 @media screen and (max-width: 599px) {
     html {
         background-image: url('../img/bg-mobile.png');
-        background-size: 100% 10%;
+        background-size: 100% 11%;
     }
 
     .container {
@@ -31,6 +31,7 @@
         margin-left: 30px;
         margin-right: 30px;
         max-width: 100%;
+        margin-top: 28%;
     }
 
     .ilustracao {
@@ -53,6 +54,14 @@
 
 @media screen and (min-width: 800px) and (max-width: 949px) {
 
+    .container .apresentation {
+        margin-left: 0;
+    }
+
+    .container .contact {
+        margin-left: 0px;
+    }
+
     .content .item .tecs {
         grid-template-columns: 1fr 1fr;
         column-gap: 20px;
@@ -73,19 +82,24 @@
     .content .item .xp {
         grid-template-columns: 1fr 1fr;
     }
+
+    .content .card-tecs {
+        justify-self: center;
+    }
 }
 
 @media screen and (min-width: 950px) and (max-width: 1100px) {
     html {
-        background-size: 100% 17%;
+        background-size: 100% 19%;
+    }
+
+    .content .item .tecs {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
     }
 
     .container .apresentation {
         margin-left: 0;
-    }
-
-    .container .apresentation {
-        margin-left: 0px;
     }
 
     .container .contact {
@@ -99,6 +113,10 @@
     .content {
         margin-left: 0;
     }
+
+    .content .card-tecs {
+        justify-self: center;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 799px) {
@@ -106,12 +124,18 @@
         background-size: 100% 17%;
     }
 
-    .container .apresentation {
-        margin-left: 0;
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .content .item .tecs {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
     }
 
     .container .apresentation {
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .container .contact {
@@ -135,5 +159,36 @@
 
     .content .item .xp {
         grid-template-columns: 1fr 1fr;
+        justify-self: center;
+    }
+
+    .content .card-tecs {
+        justify-self: center;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+    html {
+        background-size: 100% 25%;
+    }
+
+    .ilustracao {
+        width: 23%;
+    }
+
+    .content {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 2000px) {
+    .content {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (min-width: 2001px) {
+    .ilustracao {
+        width: 14%;
     }
 }
