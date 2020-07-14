@@ -41,7 +41,7 @@ html {
 }
 
 @keyframes show {
-    from {opacity: 0.3;}
+    from {opacity: 0;}
     to {opacity: 1;}
 }
 
@@ -50,6 +50,8 @@ html {
     margin-right: 60px;
     animation-name: show;
     animation-duration: 2s;
+    transition: ease;
+    transition-duration: .5s;
 }
 
 .grey {
