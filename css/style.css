@@ -9,6 +9,7 @@ html {
     background-image: url('../img/bg.png');
     background-repeat: no-repeat;
     background-size: 100% 22%;
+    background-color: #f1f1f1;
 }
 
 .ff-arial {
@@ -230,6 +231,7 @@ html {
     box-shadow: 1px 3px 28px 6px #ccc;
     padding: 32px;
     border-radius: 8px;
+    background-color: #fff;
 }
 
 .ml-16 {
