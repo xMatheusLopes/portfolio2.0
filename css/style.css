@@ -1,239 +1,257 @@
-html, body {
-    margin: 0;
-    min-height: 100%;
-    min-width: 100%;
-    line-height: 24px;
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  line-height: 24px;
 }
 
 html {
-    background-image: url('../img/bg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 22%;
-    background-color: #f1f1f1;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 22%;
+  background-color: #f1f1f1;
 }
 
 .ff-arial {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @font-face {
-    font-family: avenirNext;
-    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+  font-family: avenirNext;
+  src: url(../fonts/AvenirNextLTPro-Regular.otf);
 }
 @font-face {
-    font-family: avenirNextBold;
-    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+  font-family: avenirNextBold;
+  src: url(../fonts/AvenirNextLTPro-Bold.otf);
 }
 @font-face {
-    font-family: avenirNextIt;
-    src: url(../fonts/AvenirNextLTPro-It.otf);
+  font-family: avenirNextIt;
+  src: url(../fonts/AvenirNextLTPro-It.otf);
 }
 
 .ff-avenir-next {
-    font-family: avenirNext;
+  font-family: avenirNext;
 }
 
 .ff-avenir-next-bold {
-    font-family: avenirNextBold;
+  font-family: avenirNextBold;
 }
 
 .ff-avenir-next-it {
-    font-family: avenirNextIt;
+  font-family: avenirNextIt;
 }
 
 @keyframes show {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .container {
-    margin-left: 60px;
-    margin-right: 60px;
-    animation-name: show;
-    animation-duration: 2s;
-    transition: ease;
-    transition-duration: .5s;
+  margin-left: 60px;
+  margin-right: 60px;
+  animation-name: show;
+  animation-duration: 2s;
+  transition: ease;
+  transition-duration: 0.5s;
 }
 
 .grey {
-    color: #353F49;
+  color: #353f49;
 }
 
 .bg-grey {
-    background-color: #353F49;
+  background-color: #353f49;
 }
 
 .blue {
-    color: #006CFF;
+  color: #006cff;
 }
 
 .bg-blue {
-    background-color: #006CFF;
+  background-color: #006cff;
 }
 
 .white {
-    color: #fff;
+  color: #fff;
 }
 
 .bg-white {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .dark-blue {
-    color: #3B5998;
+  color: #3b5998;
 }
 
 .bg-dark-blue {
-    background-color: #3B5998;
+  background-color: #3b5998;
 }
 
 .apresentation {
-    display: flex;
-    margin-top: 30px;
-    margin-left: 140px;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 140px;
 }
 
 .apresentation img {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 .apresentation .info {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
 .fs-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .contact {
-    margin-left: 140px;
+  margin-left: 140px;
 }
 
 .contact .title {
-    margin-top: 32px;
-    margin-bottom: 22px;
-    font-size: 20px;
-    width: fit-content;
+  margin-top: 32px;
+  margin-bottom: 22px;
+  font-size: 20px;
+  width: fit-content;
 }
 
 .contact .item {
-    display: flex;
-    margin-bottom: 6px;
-    align-items: center;
+  display: flex;
+  margin-bottom: 6px;
+  align-items: center;
 }
 
 .contact .rede-social {
-    display: flex;
+  display: flex;
 }
 
 .contact .rede-social .item {
-    border-radius: 50%;
-    border: 4px solid;
-    border-color: #000C4E;
+  border-radius: 50%;
+  border: 4px solid;
+  border-color: #000c4e;
 }
 
 .contact .item img {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
 }
 
 .hr {
-    width: 100%;
-    height: 1px;
-    border-radius: 6px;
+  width: 100%;
+  height: 1px;
+  border-radius: 6px;
 }
 
 .ilustracao {
-    position: absolute;
-    right: 140px;
-    top: 30px;
-    width: 30%;
+  position: absolute;
+  right: 140px;
+  top: 30px;
+  width: 30%;
 }
 
 .ilustracao img {
-    width: 100%;
+  width: 100%;
 }
 
 .content {
-    margin-top: 16%;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-bottom: 60px;
-    display: grid;
-    grid-template-areas:
+  margin-top: 16%;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-areas:
     "quem-sou-eu techs"
     "formacao techs"
     "exp exp";
-    justify-content: space-between;
-    gap: 40px;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .content .item {
-    width: fit-content;
+  width: fit-content;
 }
 
 .content .card-tecs {
-    padding: 32px;
-    border-radius: 8px;
-    line-height: 30px;
-    background-color: #fff;
-    justify-self: end;
-    box-shadow: 1px 3px 28px 6px #ccc;
+  padding: 32px;
+  border-radius: 8px;
+  line-height: 30px;
+  background-color: #fff;
+  justify-self: end;
+  box-shadow: 1px 3px 28px 6px #ccc;
+  height: fit-content;
 }
 
 .content .item .title {
-    margin-top: 22px;
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .content .item .desc {
-    margin-top: 22px;
+  margin-top: 22px;
 }
 
 .content .item .tecs {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
 }
 
 .quem-sou-eu {
-    grid-area: quem-sou-eu;
+  grid-area: quem-sou-eu;
 }
 
 .formacao {
-    grid-area: formacao;
+  grid-area: formacao;
 }
 
 .techs {
-    grid-area: techs;
+  grid-area: techs;
 }
 
 .exp {
-    grid-area: exp;
+  grid-area: exp;
 }
 
 .content .item .xp {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .content .item .xp .item {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 1px 3px 28px 6px #ccc;
-    padding: 32px;
-    border-radius: 8px;
-    background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 3px 28px 6px #ccc;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .ml-16 {
-    margin-left: 16px;
+  margin-left: 16px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.check {
+  width: 12px;
+  height: 12px;
 }
